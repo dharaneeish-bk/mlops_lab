@@ -1,9 +1,41 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome</h1>
+
+    <div class="container">
+
+        <h1>Student Result System</h1>
+
+        <div class="form-box">
+
+            <label for="rollNumber">Enter Roll Number</label>
+
+            <input
+                type="text"
+                id="rollNumber"
+                placeholder="Example: 101"
+            >
+
+            <button onclick="checkResult()">
+                Check Result
+            </button>
+
+        </div>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+```
