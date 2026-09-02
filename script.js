@@ -1,4 +1,3 @@
-```javascript
 const students = {
     "101": {
         name: "Arun",
@@ -70,4 +69,3 @@ function checkResult() {
             "<p>Student record not found.</p>";
     }
 }
-```
